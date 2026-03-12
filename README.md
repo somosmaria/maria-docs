@@ -1,4 +1,4 @@
-# Rede Mulher
+# Maria
 
 > Uma guardia protege a outra. Juntas, formam um escudo.
 
@@ -15,7 +15,7 @@ Se algo acontece com uma, as outras já estão conectadas e prontas. Não é um 
 pânico isolado. É um escudo coletivo, formado por mulheres que escolheram proteger e
 ser protegidas.
 
-**Isso é o que diferencia o Rede Mulher de qualquer outro app de segurança.**
+**Isso é o que diferencia o Maria de qualquer outro app de segurança.**
 
 ---
 
@@ -23,7 +23,7 @@ ser protegidas.
 
 Mulheres no Brasil enfrentam violência de forma sistêmica:
 
-- **1 mulher assassinada a cada 7 horas** (Atlas da Violência 2023)
+- **4 mulheres assassinadas por dia** — recorde histórico de 1.470 feminicídios em 2025 (Ministério da Justiça)
 - **68% dos feminicídios** cometidos por parceiros ou ex-parceiros
 - **Medidas protetivas** existem, mas a execução depende de estrutura policial insuficiente
 - O tempo entre pedir socorro e a ajuda chegar pode ser fatal
@@ -105,7 +105,7 @@ Ser guardia é uma identidade, não só uma função.
 ## Estrutura do repositório
 
 ```
-docs/
+maria-docs/
   product/
     vision.md           # Visão, missão, valores
     personas.md         # Perfis de usuário
@@ -113,14 +113,14 @@ docs/
     partnerships.md     # Parcerias por fase
   features/
     core/               # F001-F005, F020, F021, F026, F028
-    movement/           # F006-F009
+    movement/           # F006-F009, F029, F031
     community/          # F010-F013, F025, F027
-    prevention/         # F014-F016, F022-F024
+    prevention/         # F014-F016, F022-F024, F030
     institutional/      # F017-F019
   technical/
     architecture.md
     privacy-security.md
-ROADMAP.md
+  ROADMAP.md
 ```
 
 ---

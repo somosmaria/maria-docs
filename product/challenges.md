@@ -9,8 +9,8 @@ Este documento lista os principais desafios do produto e como a plataforma os en
 **Problema:** Features que dependem de comunidade (rede local, mapa colaborativo) nao entregam valor para as primeiras usuarias.
 
 **Mitigacao:**
-- MVP e 100% standalone — botao de panico, Circulo de Confianca, Modo Camuflado, Me Acompanhe funcionam para o primeiro usuario com zero rede
-- Features de comunidade entram somente na Fase 3, quando ha massa critica minima (10k usuarias ativas por cidade)
+- MVP e 100% standalone — botao de panico, Circulo de Confianca, Modo Camuflado funcionam para o primeiro usuario com zero rede
+- Features de comunidade entram somente na Fase 3, quando ha massa critica minima (500 usuarias ativas por cidade piloto)
 - Dados publicos (DEAMs, hospitais, iluminacao) alimentam o mapa desde o inicio sem depender de contribuicao da comunidade
 - Parceria com organizacoes (Instituto Maria da Penha, SOS Mulher) para base inicial de usuarias verificadas
 
@@ -49,14 +49,14 @@ Este documento lista os principais desafios do produto e como a plataforma os en
 
 **Mitigacao:**
 
-### Rede local (F008)
+### Rede local (F010)
 - Alertas sao totalmente anonimos e unidirecionais — quem emite nao sabe quem recebeu
 - Nao ha "chat" ou canal de comunicacao — so alertas pre-definidos
 - Rate limiting agressivo por dispositivo: maximo 3 alertas por hora
 - Sistema de reputacao com decaimento temporal — alertas de contas novas tem peso menor
 - Deteccao de anomalia: emissao de alertas fora de horario de sono identifica bots
 
-### Mapa de seguranca (F009)
+### Mapa de seguranca (F011)
 - Dados agregados antes de aparecer — minimo de N confirmacoes independentes
 - Relatos individuais nunca publicos — apenas agregado aparece no mapa
 - Janela de tempo: relato expira apos 30 dias sem confirmacao
@@ -77,7 +77,7 @@ Este documento lista os principais desafios do produto e como a plataforma os en
 - Evidencias: plataforma nao tem acesso ao conteudo (E2E) — apenas armazena arquivo criptografado
 - Parceria com juristas especializados em LGPD e violencia domestica para validar fluxos
 - Politica de retencao de dados clara e auditavel
-- Revisao juridica antes de qualquer integracao institucional (F012)
+- Revisao juridica antes de qualquer integracao institucional (F017-F019)
 
 ---
 

@@ -1,7 +1,7 @@
 # F028 — Rede de Guardias
 
 **Categoria:** Core
-**Fase:** Fase 1 (MVP) — é a feature central do produto
+**Fase:** Fase 1 (modo solo — features individuais sem rede) / Fase 3 (rede coletiva ativa — requer densidade mínima)
 **Prioridade:** 🔴 Alta — define a identidade do produto
 **Funciona sem rede de usuarios:** Parcialmente (features individuais funcionam; escudo ativo requer outras guardias na area)
 

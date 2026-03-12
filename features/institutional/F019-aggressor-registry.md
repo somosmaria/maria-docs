@@ -1,7 +1,7 @@
 # F019 — Consulta ao Cadastro de Agressores
 
 **Categoria:** Institutional
-**Fase:** Fase 3 (integracao com API publica — sem aprovacao judicial, so acesso tecnico)
+**Fase:** Fase 5 (integração institucional — requer parceria CNJ e aprovação de framework legal)
 **Funciona sem rede de usuarios:** Sim
 
 ---

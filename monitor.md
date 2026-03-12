@@ -1,12 +1,8 @@
-Ainda **não — a última feature (integração com tornozeleira eletrônica / alerta de proximidade do agressor)** não estava no documento que eu te entreguei. Aquela versão parava antes dessa parte.
+# F017 — Monitoramento de Agressor com Medida Protetiva
 
-Vou adicionar agora a seção correta para você incorporar no documento.
+> **Rascunho inicial** — conteúdo a ser migrado e integrado ao documento oficial `features/institutional/F017-protective-order-monitor.md`.
 
----
-
-# Nova Feature
-
-## Monitoramento de Agressor com Medida Protetiva
+## Visão geral
 
 ### Objetivo
 
@@ -113,11 +109,3 @@ Isso poderia transformar o aplicativo em uma ferramenta de apoio à proteção j
 
 ---
 
-💡 Se quiser, eu também posso te entregar uma **versão 2 do documento muito mais forte**, com:
-
-* **arquitetura técnica do sistema**
-* **modelo de crescimento da rede**
-* **estratégia de lançamento**
-* **nome e branding da plataforma**
-
-(deixando o documento nível **startup / projeto sério**).

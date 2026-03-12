@@ -1,6 +1,6 @@
 # Privacidade e Seguranca
 
-Este documento define as politicas e implementacoes de privacidade e seguranca do Rede Mulher. E um documento vivo — revisado a cada release maior.
+Este documento define as politicas e implementacoes de privacidade e seguranca do Maria. E um documento vivo — revisado a cada release maior.
 
 ---
 
@@ -49,8 +49,8 @@ Para dados de evidencias (audio, fotos, videos), a plataforma age como transport
 |----------|-----------------|-------------------|
 | Me Acompanhe (F006) | Pontos GPS em tempo real | Imediatamente apos fim do evento |
 | Emergencia (F001) | Trilha de localizacao do evento | 90 dias apos resolucao do evento |
-| Rede Local (F008) | Coordenadas aproximadas (+/-500m) | Nunca armazenado — apenas broadcast local |
-| Mapa colaborativo (F009) | Ponto imprecisado (+/-50m) | Agregado — dado individual deletado em 30 dias |
+| Rede Local (F010) | Coordenadas aproximadas (+/-500m) | Nunca armazenado — apenas broadcast local |
+| Mapa colaborativo (F011) | Ponto imprecisado (+/-50m) | Agregado — dado individual deletado em 30 dias |
 
 ### Evidencias (F005)
 - Conteudo: AES-256-GCM, chave derivada de biometria/PIN da usuaria
@@ -58,7 +58,7 @@ Para dados de evidencias (audio, fotos, videos), a plataforma age como transport
 - Servidor **nao armazena**: chave de descriptografia (zero-knowledge)
 - Retencao: ate deletado pela usuaria (ou 3 anos apos inatividade)
 
-### Diario de incidentes (F010)
+### Diario de incidentes (F014)
 - Mesmo modelo de F005: criptografia E2E, zero-knowledge
 - Backup criptografado: opt-in explicito, nunca automatico por padrao
 
